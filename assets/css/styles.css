@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "roboto-regular";
+  src: local("roboto-regular"),
+    url("~assets/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "roboto-italic";
+  src: local("roboto-italic"),
+    url("~assets/fonts/Roboto/Roboto-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "roboto-light";
+  src: local("roboto-light"),
+    url("~assets/fonts/Roboto/Roboto-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "roboto-medium";
+  src: local("roboto-medium"),
+    url("~assets/fonts/Roboto/Roboto-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "poppins-semibold";
+  src: local("poppins-semibold"),
+    url("~assets/fonts/Poppins/Poppins-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "poppins-regular";
+  src: local("poppins-regular"),
+    url("~assets/fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+}
