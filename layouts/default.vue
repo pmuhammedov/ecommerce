@@ -5,6 +5,7 @@
       <DefaultMain />
       <DefaultRecommended />
       <DefaultShoppingBanner />
+      <DefaultNewcollection />
     </div>
     <slot />
   </div>

@@ -37,3 +37,9 @@
   src: local("poppins-regular"),
     url("~assets/fonts/Poppins/Poppins-Regular.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: "poppins-medium";
+  src: local("poppins-medium"),
+    url("~assets/fonts/Poppins/Poppins-Medium.ttf") format("truetype");
+}
