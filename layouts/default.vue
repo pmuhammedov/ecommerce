@@ -6,6 +6,10 @@
       <DefaultRecommended />
       <DefaultShoppingBanner />
       <DefaultNewcollection />
+      <DefaultShoppingBanner />
+      <DefaultTrending />
+      <DefaultShoppingBanner />
+      <DefaultFooter />
     </div>
     <slot />
   </div>

@@ -54,7 +54,7 @@ export default {
   max-width: 1366px;
   width: 100%;
   height: 740px;
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   padding: 52px 128px 0 128px;
   display: flex;
   flex-direction: row;

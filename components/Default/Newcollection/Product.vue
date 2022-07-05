@@ -1,5 +1,5 @@
 <template>
-  <div v-if="singleProduct != null" class="single__product">
+  <div v-if="this.singleProduct != null" class="single__product">
     <div class="product__image">
       <img :src="this.singleProduct.image" :alt="this.singleProduct.title" />
     </div>
