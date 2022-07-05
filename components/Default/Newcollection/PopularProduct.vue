@@ -10,7 +10,7 @@
     </div>
     <div class="product__image">
       <img
-        src="~/assets/img/selectedProduct/NikeAirForceShadow.png"
+        src="/img/selectedProduct/NikeAirForceShadow.png"
         alt="NikeAirForceShadow"
       />
     </div>

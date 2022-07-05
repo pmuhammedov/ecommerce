@@ -1,10 +1,7 @@
 <template>
   <div v-if="newProduct" class="single__product">
     <div class="product__image">
-      <img
-        :src="'/assets/img/products/' + newProduct.image"
-        :alt="newProduct.title"
-      />
+      <img :src="'/img/products/' + newProduct.image" :alt="newProduct.title" />
     </div>
     <div class="product__info">
       <div class="product__title">

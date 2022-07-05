@@ -1,7 +1,7 @@
 <template>
   <div v-if="trendingProduct" class="product">
     <div class="trending__image">
-      <img :src="'/assets/img/products/' + trendingProduct.image" />
+      <img :src="'/img/products/' + trendingProduct.image" />
     </div>
     <div class="trending__info">
       <span class="trending__title">{{ trendingProduct.title }}</span>

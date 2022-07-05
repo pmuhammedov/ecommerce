@@ -3,7 +3,7 @@
     <div>
       <img
         style="border-radius: 10px"
-        src="~/assets/img/recommended/Base.png"
+        src="/img/recommended/Base.png"
         alt="Base"
       />
     </div>

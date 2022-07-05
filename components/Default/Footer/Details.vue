@@ -1,7 +1,7 @@
 <template>
   <div class="details__container">
     <div class="footer__logo">
-      <img src="~/assets/img/Footer/footer__logo.png" alt="koohi__logo" />
+      <img src="/img/Footer/footer__logo.png" alt="koohi__logo" />
     </div>
     <div class="footer__details">
       <span
