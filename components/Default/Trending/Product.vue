@@ -1,11 +1,11 @@
 <template>
-  <div v-if="this.trendingProduct" class="product">
+  <div v-if="trendingProduct" class="product">
     <div class="trending__image">
       <img :src="trendingProduct.image" />
     </div>
     <div class="trending__info">
-      <span class="trending__title">{{ this.trendingProduct.title }}</span>
-      <span class="trending__price">${{ this.trendingProduct.price }}</span>
+      <span class="trending__title">{{ trendingProduct.title }}</span>
+      <span class="trending__price">${{ trendingProduct.price }}</span>
     </div>
   </div>
 </template>

@@ -4,7 +4,7 @@
       <DefaultNewcollectionProduct
         v-for="(product, index) in products"
         :key="index"
-        :singleProduct="product"
+        :newProduct="product"
       />
       <!-- <DefaultNewcollectionProduct /> -->
       <!-- <DefaultNewcollectionProduct />

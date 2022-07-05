@@ -1,16 +1,16 @@
 <template>
-  <div v-if="this.singleProduct != null" class="single__product">
+  <div v-if="newProduct" class="single__product">
     <div class="product__image">
-      <img :src="this.singleProduct.image" :alt="this.singleProduct.title" />
+      <img :src="newProduct.image" :alt="newProduct.title" />
     </div>
     <div class="product__info">
       <div class="product__title">
         <span>
-          {{ this.singleProduct.title }}
+          {{ newProduct.title }}
         </span>
       </div>
       <div class="product__price">
-        <span> ${{ this.singleProduct.price }} </span>
+        <span> ${{ newProduct.price }} </span>
       </div>
     </div>
   </div>
@@ -18,7 +18,7 @@
 <script>
 export default {
   name: "Product",
-  props: { singleProduct: null },
+  props: ["newProduct"],
   mounted() {
     // console.log(this.singleProduct);
   },
