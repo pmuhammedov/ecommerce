@@ -14,10 +14,10 @@ export default {
 .new__collection__content {
   max-width: 1366px;
   width: 100%;
-  height: 1050px;
-  /* border: 1px solid red; */
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 30px;
 }
 </style>

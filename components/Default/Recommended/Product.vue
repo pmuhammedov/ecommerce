@@ -1,6 +1,6 @@
 <template>
   <div class="product">
-    <div>
+    <div class="recommended__product">
       <img
         style="border-radius: 10px"
         src="/img/recommended/Base.png"
@@ -21,6 +21,27 @@ export default {
 };
 </script>
 <style scoped>
+.recommended__product {
+  max-width: 270px;
+  width: 100%;
+  height: 270px;
+  overflow: hidden;
+  /* position: relative; */
+}
+.recommended__product img {
+  -webkit-transition: all 3s ease;
+  -moz-transition: all 3s ease;
+  transition: all 3s ease;
+}
+.recommended__product img:hover {
+  width: 200%;
+  height: 200%;
+  /* margin-top: 100%; */
+  object-position: 50% 0%;
+  object-fit: cover;
+  /* position: absolute; */
+  top: -55%;
+}
 .product {
   max-width: 270px;
   width: 100%;

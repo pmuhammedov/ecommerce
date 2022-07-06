@@ -1,6 +1,6 @@
 <template>
   <div class="recommended__products">
-    <div class="recommend__semi__wallpaper"></div>
+    <!-- <div class="recommend__semi__wallpaper"></div> -->
     <div class="recommended__top"><DefaultRecommendedTop /></div>
     <div class="recommended__bottom">
       <DefaultRecommendedProducts />
@@ -17,7 +17,9 @@ export default {
 .recommended__products {
   width: 1366px;
   width: 100%;
-  height: 676px;
+  height: auto;
+  padding-bottom: 42px;
+  /* position: relative; */
 }
 .recommend__semi__wallpaper {
   max-width: 1366px;
@@ -39,7 +41,6 @@ export default {
 .recommended__bottom {
   width: 1366px;
   max-width: 100%;
-  height: 528px;
   display: flex;
   flex-direction: column;
   align-items: center;

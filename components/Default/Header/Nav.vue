@@ -25,7 +25,9 @@ export default {
   margin-left: 70px;
   padding: 0 25px 0 25px;
   /* border: 1px solid green; */
-  /* overflow-x: scroll; */
+
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 ul {
   /* max-width: 900px; */
@@ -49,5 +51,10 @@ li:nth-child(1) {
   /* background: red; */
   color: orange;
   border-bottom: 2px solid orange;
+}
+@media screen and (max-width: 500px) {
+  .navs {
+    display: none;
+  }
 }
 </style>

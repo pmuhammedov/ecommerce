@@ -41,10 +41,12 @@ export default {
   background-image: url("/img/main/Mask.png");
   background-size: cover;
   height: 596px;
-  border: 1px solid red;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  /* margin-top: 173px;
+  position: relative;
+  z-index: 2; */
 }
 .background__image__wallpaper {
   max-width: 1366px;
@@ -74,6 +76,7 @@ export default {
   height: 620px;
   object-fit: cover;
   object-position: 10% 100%;
+  /* z-index: 2; */
 }
 .left__title span {
   color: #ffffff;
@@ -101,5 +104,25 @@ export default {
   max-width: 270px;
   width: 100%;
   height: 50px;
+}
+
+@media screen and (max-width: 1000px) {
+  .main__right__side {
+    display: none;
+  }
+  .main__left__side {
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .main__container {
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 400px) {
+  .left__links {
+    flex-direction: column;
+  }
 }
 </style>

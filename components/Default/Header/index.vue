@@ -25,7 +25,12 @@ export default {
 <style scoped>
 .header {
   height: 173px;
+  max-width: 1366px;
+  width: 100%;
   /* border: 1px solid #dfdfdf; */
+  /* position: fixed; */
+  z-index: 3;
+  background: #ffffff;
 }
 .header__top {
   height: 110.5px;
@@ -64,5 +69,45 @@ export default {
   align-items: center;
   border-top: 1px solid #dfdfdf;
   padding: 0 92px 0 92px;
+}
+
+@media screen and (max-width: 1000px) {
+  .search__part {
+    max-width: 457px;
+  }
+  .header__search__input {
+    max-width: 420px;
+  }
+}
+@media screen and (max-width: 870px) {
+  .search__part {
+    max-width: 357px;
+  }
+  .header__search__input {
+    max-width: 320px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .search__part {
+    max-width: 257px;
+  }
+  .header__search__input {
+    max-width: 220px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .search__part {
+    display: none;
+  }
+  .header__top,
+  .header__bottom {
+    padding: 0 30px 0 30px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .header__top,
+  .header__bottom {
+    padding: 0 10px 0 10px;
+  }
 }
 </style>

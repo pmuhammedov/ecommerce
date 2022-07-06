@@ -15,10 +15,21 @@ export default {
 .products {
   max-width: 1162px;
   width: 100%;
-  height: 356px;
-  /* border: 1px solid green; */
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  height: auto;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 25px;
+}
+@media screen and (max-width: 1000px) {
+  .products {
+    height: auto;
+    grid-template-columns: auto auto;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .products {
+    grid-template-columns: auto;
+  }
 }
 </style>

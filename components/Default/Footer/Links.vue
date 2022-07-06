@@ -64,4 +64,16 @@ export default {
 .footer__link__contacts {
   max-width: 320px;
 }
+@media screen and (max-width: 550px) {
+  .footer__links {
+    flex-direction: column;
+    margin-top: 20px;
+    /* align-items: center; */
+  }
+  .footer__link__products,
+  .footer__link__legals,
+  .footer__link__contacts {
+    margin-top: 30px;
+  }
+}
 </style>

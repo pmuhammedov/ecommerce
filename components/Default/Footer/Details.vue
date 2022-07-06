@@ -20,7 +20,7 @@ export default {
 .details__container {
   max-width: 250px;
   width: 100%;
-  height: 155px;
+  height: auto;
   /* border: 1px solid red; */
   /* margin-top: 50px; */
 }
@@ -41,5 +41,11 @@ export default {
 .footer__details span {
   font-size: 16px;
   font-family: roboto-regular;
+}
+@media screen and (max-width: 400px) {
+  .details__container {
+    /* padding-bottom: 10px; */
+    /* align-items: center; */
+  }
 }
 </style>

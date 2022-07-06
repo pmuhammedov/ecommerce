@@ -26,6 +26,7 @@ export default {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  /* position: relative; */
 }
 .banner__wallpaper {
   max-width: 1366px;
@@ -44,6 +45,7 @@ export default {
   z-index: 1;
   display: flex;
   flex-direction: row;
+  padding: 0 30px 0 30px;
   justify-content: space-between;
 }
 .banner__title {
@@ -72,5 +74,22 @@ export default {
   font-size: 1em;
   font-family: roboto-regular;
   padding: 18px 61px 18px 61px;
+}
+@media screen and (max-width: 850px) {
+  .banner__body {
+    padding: 0 10px 0 10px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .banner__body {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 650px) {
+  .banner__title span {
+    font-size: 1.5em;
+  }
 }
 </style>

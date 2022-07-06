@@ -13,8 +13,9 @@ export default {
 .trending {
   max-width: 1366px;
   width: 100%;
-  height: 1050px;
+  height: auto;
   padding-top: 100px;
+  padding-bottom: 30px;
   display: flex;
   flex-direction: column;
 }

@@ -53,7 +53,7 @@ export default {
 .products {
   max-width: 1366px;
   width: 100%;
-  height: 740px;
+  height: auto;
   /* border: 1px solid yellow; */
   padding: 52px 128px 0 128px;
   display: flex;
@@ -63,7 +63,7 @@ export default {
 .left__side {
   max-width: 540px;
   width: 100%;
-  height: 680px;
+  height: auto;
   display: grid;
   gap: 50px 30px;
   grid-template-columns: auto auto;
@@ -74,6 +74,30 @@ export default {
   height: 680px;
   border: 1px solid red;
 }
-.explore__more {
+
+@media screen and (max-width: 1366px) {
+  .products {
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 52px 100px 0 100px;
+  }
+  .left__side {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .products {
+    padding: 52px 20px 0 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .products {
+    padding: 52px 60px 0 60px;
+  }
+  .left__side {
+    grid-template-columns: auto;
+    justify-content: center;
+  }
 }
 </style>
