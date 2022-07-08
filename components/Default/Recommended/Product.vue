@@ -3,7 +3,7 @@
     <div class="recommended__product">
       <img
         style="border-radius: 10px"
-        src="/img/recommended/Base.png"
+        src="/img/recommended/Base.webp"
         alt="Base"
       />
     </div>

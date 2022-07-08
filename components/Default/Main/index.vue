@@ -22,9 +22,9 @@
     </div>
     <div class="main__right__side">
       <img
-        src="/img/main/phones.png"
+        src="/img/main/phones.webp"
         alt="phones"
-        srcset="/img/main/phones.png"
+        srcset="/img/main/phones.webp"
       />
     </div>
   </div>
@@ -38,7 +38,7 @@ export default {
 .main__container {
   max-width: 1366px;
   width: 100%;
-  background-image: url("/img/main/Mask.png");
+  background-image: url("/img/main/Mask.webp");
   background-size: cover;
   height: 596px;
   display: flex;

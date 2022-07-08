@@ -26,22 +26,22 @@ export default {
       products: [
         {
           title: "Nike Air Force 1",
-          image: "NikeAirForce.png",
+          image: "NikeAirForce.webp",
           price: "99",
         },
         {
           title: "NikeCourt Air",
-          image: "NikeCourtAir.png",
+          image: "NikeCourtAir.webp",
           price: "99",
         },
         {
           title: "Nike SB Zoom",
-          image: "NikeSbZoom.png",
+          image: "NikeSbZoom.webp",
           price: "99",
         },
         {
           title: "Nike Signal",
-          image: "NikeSignal.png",
+          image: "NikeSignal.webp",
           price: "99",
         },
       ],

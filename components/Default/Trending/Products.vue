@@ -17,42 +17,42 @@ export default {
       products: [
         {
           title: "Nike Air Force 1",
-          image: "NikeAirForce.png",
+          image: "NikeAirForce.webp",
           price: "58",
         },
         {
           title: "NikeCourt Air",
-          image: "NikeCourtAir.png",
+          image: "NikeCourtAir.webp",
           price: "58",
         },
         {
           title: "Nike SB Zoom",
-          image: "NikeSbZoom.png",
+          image: "NikeSbZoom.webp",
           price: "58",
         },
         {
           title: "Nike Signal",
-          image: "NikeSignal.png",
+          image: "NikeSignal.webp",
           price: "58",
         },
         {
           title: "Nike Air Force 1",
-          image: "NikeAirForce.png",
+          image: "NikeAirForce.webp",
           price: "58",
         },
         {
           title: "NikeCourt Air",
-          image: "NikeCourtAir.png",
+          image: "NikeCourtAir.webp",
           price: "58",
         },
         {
           title: "Nike SB Zoom",
-          image: "NikeSbZoom.png",
+          image: "NikeSbZoom.webp",
           price: "58",
         },
         {
           title: "Nike Signal",
-          image: "NikeSignal.png",
+          image: "NikeSignal.webp",
           price: "58",
         },
       ],

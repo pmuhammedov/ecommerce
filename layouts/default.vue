@@ -1,8 +1,8 @@
 <template>
   <div class="layout__content">
     <div class="layout__main">
-      <DefaultHeader />
-      <DefaultMain />
+      <LazyDefaultHeader />
+      <LazyDefaultMain />
       <LazyDefaultRecommended />
       <LazyDefaultShoppingBanner />
       <LazyDefaultNewcollection />

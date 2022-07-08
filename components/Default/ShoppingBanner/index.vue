@@ -19,9 +19,9 @@ export default {
 <style scoped>
 .banner__content {
   height: 251px;
-  background-image: url("/img/banner/RectangleBanner.png");
+  background-image: url("/img/banner/RectangleBanner.webp");
   background-size: cover;
-  background-position: 80% 70%;
+  /* background-position: 80% 70%; */
   display: flex;
   flex-direction: row;
   justify-content: center;
