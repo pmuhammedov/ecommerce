@@ -1,7 +1,7 @@
 <template>
   <div class="products">
     <div class="products__grid__container">
-      <DefaultTrendingProduct
+      <LazyDefaultTrendingProduct
         v-for="(product, index) in products"
         :key="index"
         :trendingProduct="product"

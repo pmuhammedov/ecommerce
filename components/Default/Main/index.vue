@@ -13,10 +13,10 @@
       </div>
       <div class="left__links">
         <div class="buy__now__button__container">
-          <NuxtLink to="/"><DefaultMainBuynowbutton /></NuxtLink>
+          <NuxtLink to="/"><LazyDefaultMainBuynowbutton /></NuxtLink>
         </div>
         <div class="product__advertising__container">
-          <NuxtLink to="/"><DefaultMainAdvertising /></NuxtLink>
+          <NuxtLink to="/"><LazyDefaultMainAdvertising /></NuxtLink>
         </div>
       </div>
     </div>

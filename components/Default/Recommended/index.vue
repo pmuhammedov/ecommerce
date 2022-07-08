@@ -3,8 +3,8 @@
     <!-- <div class="recommend__semi__wallpaper"></div> -->
     <div class="recommended__top"><DefaultRecommendedTop /></div>
     <div class="recommended__bottom">
-      <DefaultRecommendedProducts />
-      <DefaultRecommendedExplore />
+      <LazyDefaultRecommendedProducts />
+      <LazyDefaultRecommendedExplore />
     </div>
   </div>
 </template>

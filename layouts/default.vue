@@ -3,13 +3,13 @@
     <div class="layout__main">
       <DefaultHeader />
       <DefaultMain />
-      <DefaultRecommended />
-      <DefaultShoppingBanner />
-      <DefaultNewcollection />
-      <DefaultShoppingBanner />
-      <DefaultTrending />
-      <DefaultShoppingBanner />
-      <DefaultFooter />
+      <LazyDefaultRecommended />
+      <LazyDefaultShoppingBanner />
+      <LazyDefaultNewcollection />
+      <LazyDefaultShoppingBanner />
+      <LazyDefaultTrending />
+      <LazyDefaultShoppingBanner />
+      <LazyDefaultFooter />
     </div>
     <slot />
   </div>

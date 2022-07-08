@@ -1,7 +1,7 @@
 <template>
   <div class="products">
     <div class="left__side">
-      <DefaultNewcollectionProduct
+      <LazyDefaultNewcollectionProduct
         v-for="(product, index) in products"
         :key="index"
         :newProduct="product"
@@ -11,7 +11,7 @@
       <DefaultNewcollectionProduct /> -->
     </div>
     <!-- <div class="right__side"> -->
-    <DefaultNewcollectionPopularProduct />
+    <LazyDefaultNewcollectionPopularProduct />
     <!-- </div> -->
     <!-- <div class="explore__more">
       <button>Explore Other Products</button>

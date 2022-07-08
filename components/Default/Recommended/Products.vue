@@ -1,9 +1,9 @@
 <template>
   <div class="products">
-    <DefaultRecommendedProduct />
-    <DefaultRecommendedProduct />
-    <DefaultRecommendedProduct />
-    <DefaultRecommendedProduct />
+    <LazyDefaultRecommendedProduct />
+    <LazyDefaultRecommendedProduct />
+    <LazyDefaultRecommendedProduct />
+    <LazyDefaultRecommendedProduct />
   </div>
 </template>
 <script>

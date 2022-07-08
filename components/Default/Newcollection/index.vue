@@ -1,8 +1,8 @@
 <template>
   <div class="new__collection__content">
-    <DefaultNewcollectionTitle />
-    <DefaultNewcollectionProducts />
-    <DefaultRecommendedExplore />
+    <LazyDefaultNewcollectionTitle />
+    <LazyDefaultNewcollectionProducts />
+    <LazyDefaultRecommendedExplore />
   </div>
 </template>
 <script>

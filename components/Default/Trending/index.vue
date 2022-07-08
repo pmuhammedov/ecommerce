@@ -1,7 +1,7 @@
 <template>
   <div class="trending">
-    <DefaultTrendingTitle />
-    <DefaultTrendingProducts />
+    <LazyDefaultTrendingTitle />
+    <LazyDefaultTrendingProducts />
   </div>
 </template>
 <script>

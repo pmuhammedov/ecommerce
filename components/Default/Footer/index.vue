@@ -1,7 +1,7 @@
 <template>
   <div class="footer__body">
-    <DefaultFooterDetails />
-    <DefaultFooterLinks />
+    <LazyDefaultFooterDetails />
+    <LazyDefaultFooterLinks />
   </div>
 </template>
 <script>
